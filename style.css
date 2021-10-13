@@ -1,11 +1,20 @@
 
 
 
+/*NAV*/
+
+.fix{
+    position: fixed;
+    width: 100vw;
+    font-style: helvetica;
+}
 
 .sony{
     height: 60px;
     background-color: #000;
 }
+
+
 
 /*UTILITIES*/
 
@@ -15,11 +24,25 @@
 }
 
 .logo-1{
-    width: 25px;
-    height: 25px;
+    width:20px;
+    height: 20px;
 }
 
 /*BUTTON*/
+
+.bt{
+    padding: 11px;
+    border-radius: 59px;
+}
+
+/*HEADER*/
+
+.big-img{
+    padding-top: 136px;
+    height: 500px;
+    object-fit: contain;
+}
+
 
 
 
