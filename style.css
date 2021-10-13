@@ -47,12 +47,10 @@ header{
 .big-img{
     padding-top: 136px;
     max-width: 100%;
-    min-height: 700px;
-    background-image: url(../img/jumbo-bg.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+    height: 600px;
+    background-image: url(./img/jumbo-bg.png);
+    position: center center;
+   
 }
 
 /*SECTION*/
@@ -73,6 +71,18 @@ section{
     text-align: center;
 }
  
+.sec-5 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 2px transparent solid;
+}
+
+.sec-5 img:hover{
+    border-bottom: 2px #0d6efd solid;
+}
+
+
 
 
 
