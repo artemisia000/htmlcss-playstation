@@ -31,7 +31,6 @@
 /*BUTTON*/
 
 .bt{
-    padding: 11px;
     border-radius: 59px;
 }
 
@@ -39,10 +38,24 @@
 
 .big-img{
     padding-top: 136px;
-    height: 500px;
-    object-fit: contain;
+    max-width: 100%;
+    height: auto;
 }
 
+/*SECTION*/
+
+
+.sec-1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.sec-2{
+    text-align: center;
+}
+ 
 
 
 
