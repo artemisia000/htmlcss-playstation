@@ -72,11 +72,19 @@ body{
 }
 
 .jumbo-3{
-    background-image: url(./img/ps-plus-april-monthly-games-featured-image-block.png);
     background-color: rgb(165, 157, 144);
-    background-repeat: no-repeat;
-    background-position: right;
+    height: 500px;
+    max-width: 100%;
 }
+
+.pic-3{
+    width: auto;
+    height: 500px ;
+    object-position: top;
+    object-position: right;
+}
+
+
 
 
 
