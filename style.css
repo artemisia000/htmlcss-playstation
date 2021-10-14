@@ -1,26 +1,24 @@
-*{
+
+
+body{
+    padding-top: 136px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
 
 /*NAV*/
 
-header{
-    font-family: Helvetica;
-}
-
 .fix{
     position: fixed;
-    width: 100vw;
+    width: 100%;
+     top: 0;
+     left: 0;
+     font-family: Helvetica;
 }
 
 .sony{
     height: 60px;
     background-color: #000;
 }
-
-
 
 /*UTILITIES*/
 
@@ -33,8 +31,13 @@ header{
     color: #000;
     width: 30px;
     height: 30px;
-
 }
+
+.logo-3{
+    width: 300px;
+    height: 80px;
+}
+
 
 /*BUTTON*/
 
@@ -44,13 +47,21 @@ header{
 
 /*HEADER*/
 
+
+
 .big-img{
-    padding-top: 136px;
     max-width: 100%;
     height: 600px;
     background-image: url(./img/jumbo-bg.png);
-    position: center center;
-   
+    background-position: center top ;
+}
+
+.jumbo-1{
+    background-image: url(./img/jumbo-bg.png);
+}
+
+.jumbo-2{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /*SECTION*/
@@ -71,15 +82,35 @@ section{
     text-align: center;
 }
  
-.sec-5 img{
+.sec-4 img{
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-bottom: 2px transparent solid;
 }
 
-.sec-5 img:hover{
+.sec-5{
+    background-color: rgb(49, 50, 53);
+}
+
+.sec-5 img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+
+}
+
+
+.over{  
+    border-bottom: 2px transparent solid;
+    filter: grayscale(1);
+    color:darkgrey;
+}
+
+.over:hover{
     border-bottom: 2px #0d6efd solid;
+    filter: none;
+    color: #000;
 }
 
 
