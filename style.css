@@ -38,6 +38,12 @@ body{
     height: 80px;
 }
 
+.logo-4{
+    width: 80px;
+    height: 80px;
+}
+
+
 
 
 
@@ -81,7 +87,6 @@ body{
     background-color: rgb(8, 17, 41);
     height: 500px;
     max-width: 100%;
-
 }
 
 .pic-3{
@@ -142,18 +147,31 @@ section{
 
 /*HOVER*/
 
-.over{  
+.ghost{  
     border-bottom: 2px transparent solid;
     filter: grayscale(1);
     color:darkgrey;
 }
 
-.over:hover{
+.ghost:hover{
     border-bottom: 2px #0d6efd solid;
     filter: none;
     color: #000;
 }
 
+/*FOOTER*/
+
+footer{
+    max-width: 100%;
+    height: 900px;
+    background-color: rgb(14, 50, 211);
+    color: #fff;
+}
+
+.foot li{
+    list-style: none;
+    font-size: 15px;
+}
 
 
 
