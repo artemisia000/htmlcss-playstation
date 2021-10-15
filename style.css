@@ -20,7 +20,7 @@ body{
     background-color: #000;
 }
 
-/*UTILITIES*/
+/*LOGO*/
 
 .logo{
     width: 100px;
@@ -28,24 +28,18 @@ body{
 }
 
 .logo-1{
-    color: #000;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
-
+    
 .logo-3{
-    width: 300px;
-    height: 80px;
+    width:50%;
 }
 
 .logo-4{
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
-
-
-
-
 
 /*BUTTON*/
 
@@ -62,12 +56,13 @@ body{
 /*HEADER*/
 
 
-
 .big-img{
     max-width: 100%;
     height: 600px;
     background-position: center top ;
 }
+
+/*JUMBO*/
 
 .jumbo-1{
     background-image: url(./img/jumbo-bg.png);
@@ -78,15 +73,39 @@ body{
 }
 
 .jumbo-3{
-    background-color: rgb(165, 157, 144);
+    background-color: #bebcbb;
     height: 500px;
     max-width: 100%;
 }
 
 .jumbo-4{
-    background-color: rgb(8, 17, 41);
+    background-color:#101635 ;
     height: 500px;
     max-width: 100%;
+}
+
+
+/*SECTION*/
+
+.sec-2{
+    text-align: center;
+}
+ 
+.sec-5{
+    background-color: rgb(49, 50, 53);
+}
+
+.pic img{
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 20px;   
+}
+
+.pic{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .pic-3{
@@ -96,53 +115,10 @@ body{
     object-position: right;
 }
 
-
-
-
-
-/*SECTION*/
-
-section{
-    font-family: Arial, sans-serif;
+.panza{
+    width: 70%;
+    margin: 0 auto;
 }
-
-
-.sec-1 img{
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    object-fit: cover;
-}
-
-.sec-2{
-    text-align: center;
-}
- 
-.sec-4 img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.sec-5{
-    max-width: 100%;
-    background-color: rgb(49, 50, 53);
-}
-
-.sec-5 img{
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    object-fit: cover;    
-}
-
-
-.pic{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
 
 
 /*HOVER*/
@@ -163,15 +139,17 @@ section{
 
 footer{
     max-width: 100%;
-    height: 900px;
-    background-color: rgb(14, 50, 211);
+    height:auto;
+    background-color: #00439c;
     color: #fff;
+    font-size: 13px;
 }
 
 .foot li{
     list-style: none;
-    font-size: 15px;
 }
+
+
 
 
 
