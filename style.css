@@ -172,16 +172,29 @@ body{
 }
 
 
-.ghost{  
-    border-bottom: 2px transparent solid;
+.ghost{ 
+    border-radius: 25px; 
+    border: 2px transparent solid;
     filter: grayscale(1);
     color:darkgrey;
 }
 
 .ghost:hover{
-    border-bottom: 2px #0d6efd solid;
+    border: 2px #fff solid;
+    outline: 2px #0d6efd solid;
     filter: none;
     color: #000;
+}
+
+
+.sha{
+    box-shadow: none;
+}
+
+.sha:hover{
+    filter: grayscale(.38);
+    transform: scale(1, 1);
+    box-shadow:10px 10px 20px grey;
 }
 
 /*FOOTER*/
