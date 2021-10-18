@@ -133,6 +133,15 @@ body{
 
 /*HOVER*/
 
+.ghost-1{
+    border: 2px solid transparent;
+    outline: 2px transparent solid;
+}
+.ghost-1:hover{
+    border: 2px #fff solid;
+    outline: 2px #000 solid;
+}
+
 .ghost-2{
     border: 2px solid transparent;
     outline: 2px transparent solid;
@@ -140,9 +149,28 @@ body{
 
 .ghost-2:hover{
     border: 2px #fff solid;
-
     outline: 2px #0d6efd solid ;
 }
+
+
+.ghost-3{
+    border: 2px solid transparent;
+    outline: 2px transparent solid;
+}
+.ghost-3:hover{
+    border: 2px #000 solid;
+    outline: 2px #fff solid;
+}
+
+.ghost-4{
+    border: 2px solid transparent;
+    outline: 2px transparent solid;
+}
+.ghost-4:hover{
+    border: 2px #000 solid;
+    outline: 2px #dc3545 solid;
+}
+
 
 .ghost{  
     border-bottom: 2px transparent solid;
