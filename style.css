@@ -52,6 +52,10 @@ body{
     border-color: rgba(255,255,255, .5);
 }
 
+.m{
+    margin: 3px 0;
+}
+
 
 /*HEADER*/
 
@@ -129,6 +133,17 @@ body{
 
 /*HOVER*/
 
+.ghost-2{
+    border: 2px solid transparent;
+    outline: 2px transparent solid;
+}
+
+.ghost-2:hover{
+    border: 2px #fff solid;
+
+    outline: 2px #0d6efd solid ;
+}
+
 .ghost{  
     border-bottom: 2px transparent solid;
     filter: grayscale(1);
@@ -154,14 +169,10 @@ footer{
     justify-content: center;
 }
 
-
-
 .foot li{
     list-style: none;
 }
-.pd-l{
-    padding-left: 2rem;
-}
+
 
 
 
