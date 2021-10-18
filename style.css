@@ -93,6 +93,8 @@ body{
  
 .sec-5{
     background-color: rgb(49, 50, 53);
+    display: flex;
+    justify-content: center;
 }
 
 .pic img{
@@ -115,9 +117,14 @@ body{
     object-position: right;
 }
 
-.panza{
-    width: 70%;
+.social{
+    max-width: 540px;
     margin: 0 auto;
+}
+
+.album{
+    max-width: 1140px;
+
 }
 
 
