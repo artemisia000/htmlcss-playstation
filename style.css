@@ -75,7 +75,7 @@ body{
 .jumbo-3{
     background-color: #bebcbb;
     height: 500px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .jumbo-4{
@@ -124,7 +124,6 @@ body{
 
 .album{
     max-width: 1140px;
-
 }
 
 
@@ -145,15 +144,23 @@ body{
 /*FOOTER*/
 
 footer{
-    max-width: 100%;
+    width: 100%;
     height:auto;
     background-color: #00439c;
     color: #fff;
     font-size: 13px;
+    padding: 70px 70px;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 .foot li{
     list-style: none;
+}
+.pd-l{
+    padding-left: 2rem;
 }
 
 
