@@ -186,7 +186,6 @@ body{
     color: #000;
 }
 
-
 .sha{
     box-shadow: none;
 }
@@ -213,6 +212,12 @@ footer{
 .foot li{
     list-style: none;
 }
+
+.pl{
+    padding-left: 2rem;
+}
+
+
 
 
 
